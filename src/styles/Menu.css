@@ -1,0 +1,26 @@
+#menu {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 10px;
+    padding-bottom: 1%;
+}
+.meal-card {
+    width: 50%;
+    height: 250px;
+    margin: 0 25%;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.417);
+    padding: .5%;
+    border-radius: 1rem;
+}
+.meal-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80%;
+}
+.meal-details img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
